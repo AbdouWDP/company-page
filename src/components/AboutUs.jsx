@@ -5,7 +5,7 @@ import { SlUser } from "react-icons/sl";
 function AboutUs() {
   return (
     <>
-      <div className="about-company w-11/12 flex justify-between">
+      <div id="about" className="about-company w-11/12 flex justify-between">
         <div className="w-12 h-12 rounded-full text-3xl flex justify-center items-center bg-main text-white">
           <span>
             <GiVibratingSmartphone />

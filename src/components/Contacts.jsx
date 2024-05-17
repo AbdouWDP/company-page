@@ -4,6 +4,7 @@ function Contacts() {
   return (
     <>
       <section
+        id="contacts"
         className="w-screen bg-main text-white flex justify-center items-center"
         style={{ height: "50vh" }}
       >

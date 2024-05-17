@@ -44,10 +44,10 @@ function Navbar({ open, setOpen }) {
                 <a href="#">Home</a>
               </li>
               <li className="my-2 hover:text-hover">
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li className="hover:text-hover">
-                <a href="#">Contact</a>
+                <a href="#contacts">Contact</a>
               </li>
             </ol>
           </nav>
