@@ -40,13 +40,16 @@ function Navbar({ open, setOpen }) {
           </div>
           <nav className="w-full h-full">
             <ol className="w-full text-white text-center">
-              <li className="hover:text-hover">
+              <li className="hover:text-hover" onClick={() => setOpen(false)}>
                 <a href="#">Home</a>
               </li>
-              <li className="my-2 hover:text-hover">
+              <li
+                className="my-2 hover:text-hover"
+                onClick={() => setOpen(false)}
+              >
                 <a href="#about">About</a>
               </li>
-              <li className="hover:text-hover">
+              <li className="hover:text-hover" onClick={() => setOpen(false)}>
                 <a href="#contacts">Contact</a>
               </li>
             </ol>
