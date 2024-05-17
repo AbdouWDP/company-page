@@ -24,7 +24,7 @@ function Navbar({ open, setOpen }) {
       ></div>
 
       <header
-        className="navigation-bar absolute w-1/5 max-lg:w-full h-screen top-0  z-50 duration-500 ease flex justify-center items-center"
+        className="navigation-bar absolute w-1/5 max-lg:w-3/5 h-screen top-0  z-50 duration-500 ease flex justify-center items-center"
         style={{
           left: open ? 0 : "-100vw",
           backgroundColor: "rgba(0,0,0,0.9)",
