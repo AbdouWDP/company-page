@@ -22,7 +22,8 @@ body {
 }
 @media only screen and (max-width: 758px) {
   .hero-section,
-  .navigation-bar {
+  .navigation-bar,
+  .overlay {
     height: 150vh !important;
   }
 }
