@@ -6,7 +6,7 @@ import { PiGearThin } from "react-icons/pi";
 function AboutWorkBenefits() {
   return (
     <>
-      <div className="web-marketing bg-white rounded-2xl py-10 ">
+      <div className="developement bg-white rounded-2xl py-10 max-sm:py-5">
         <div className="w-11/12 m-auto flex gap-4">
           <div className="w-12 h-12 rounded-full text-3xl flex justify-center items-center bg-main text-white">
             <span>
@@ -27,7 +27,7 @@ function AboutWorkBenefits() {
         </div>
       </div>
 
-      <div className="developement bg-sec text-white rounded-2xl py-10  ">
+      <div className="web-marketing bg-sec text-white rounded-2xl py-10 max-sm:py-5">
         <div className="w-11/12 m-auto flex gap-4">
           <div className="w-12 h-12 rounded-full text-3xl flex justify-center items-center bg-main text-white">
             <span>
@@ -48,7 +48,7 @@ function AboutWorkBenefits() {
         </div>
       </div>
 
-      <div className="data-analytics bg-white rounded-2xl py-10 ">
+      <div className="data-analytics bg-white rounded-2xl py-10 max-sm:py-5">
         <div className="w-11/12 m-auto flex gap-4">
           <div className="w-12 h-12 rounded-full text-3xl flex justify-center items-center bg-main text-white">
             <span>

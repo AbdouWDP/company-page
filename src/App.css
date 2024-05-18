@@ -23,7 +23,14 @@ body {
 @media only screen and (max-width: 758px) {
   .hero-section,
   .navigation-bar,
-  .overlay {
+  .overlay,
+  .work-section {
     height: 150vh !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-our-work {
+    height: 100vh !important;
   }
 }
