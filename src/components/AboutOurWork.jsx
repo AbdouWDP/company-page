@@ -45,33 +45,33 @@ function AboutOurWork() {
             <div className="w-3/5 max-xl:w-full m-auto font-extrabold text-5xl max-xl:text-4xl max-lg:text-3xl max-md:text-2xl text-center">
               <p>Our success is built on a foundation of reliability</p>
             </div>
-            <div className="about-work-benifits max-lg:flex max-md:flex-col max-md:gap-2">
+            <div className="about-work-benifits ">
               <AboutWorkBenefits />
             </div>
           </div>
         </div>
       </section>
       <section className="work-section w-screen h-screen flex justify-center items-center">
-        <div className="w-3/4 h-4/5 flex max-lg:flex-col">
-          <div className="work-img w-1/2 h-full relative max-lg:w-full">
+        <div className="w-3/4 h-4/5 flex max-md:flex-col">
+          <div className="work-img w-1/2 h-full relative max-md:w-full">
             <img
               src="https://assets.nicepagecdn.com/11a8ddce/1360600/images/front-view-male-builder-white-helmet-posing-light-background.jpg"
               alt=""
-              className="w-4/5 max-lg:w-full aspect-square object-cover"
+              className="w-4/5 max-md:w-full aspect-square max-lg:aspect-auto max-lg:h-3/5 object-cover"
             />
             <div
-              className="work-desc w-3/5 max-lg:w-3/4 aspect-video rounded-2xl ml-auto bg-sec text-white flex justify-center items-center relative z-50"
+              className="work-desc w-3/5 max-sm:w-3/5 max-md:w-3/4 max-lg:w-4/5 max-xl:w-3/5 max-xl:aspect-square aspect-video rounded-2xl ml-auto bg-sec text-white flex justify-center items-center relative z-50"
               style={{ marginTop: "-100px" }}
             >
-              <div className="w-4/5 h-3/5 max-lg:h-3/4 text-xl font-bold max-lg:text-lg">
+              <div className="w-4/5 h-3/5 max-md:h-3/4 text-xl font-bold max-md:text-lg">
                 We collaborate with brands and agencies to create memorable
                 experiences.
               </div>
             </div>
           </div>
-          <div className="u-container w-1/2 max-lg:w-full h-full flex justify-center items-center max-lg:justify-start">
-            <div className="w-4/5 max-lg:w-full" style={{ height: "90%" }}>
-              <div className="num-01 flex flex-col gap-12 lg:gap-6">
+          <div className="u-container w-1/2 max-md:w-full h-full flex justify-center items-center max-md:justify-start">
+            <div className="w-4/5 max-lg:w-11/12" style={{ height: "90%" }}>
+              <div className="num-01 flex flex-col gap-12 max-md:gap-6">
                 <div className="num-container w-20 max-lg:w-16 max-lg:text-3xl aspect-square bg-main flex justify-center items-center text-5xl font-bold text-white">
                   <p>01</p>
                 </div>
@@ -94,7 +94,7 @@ function AboutOurWork() {
                 </div>
               </div>
 
-              <div className="num-02 flex flex-col gap-12 mt-10 max-lg:gap-6">
+              <div className="num-02 flex flex-col gap-12 mt-10 max-md:gap-6">
                 <div className="num-container w-20 max-lg:w-16 max-lg:text-3xl aspect-square bg-main flex justify-center items-center text-5xl font-bold text-white">
                   <p>02</p>
                 </div>

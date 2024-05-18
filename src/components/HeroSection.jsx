@@ -6,11 +6,11 @@ function HeroSection() {
   return (
     <section className="hero-section w-screen h-screen flex justify-center items-center max-md:items-start">
       <div className="w-3/4 h-4/5 flex max-md:flex-col">
-        <div className="hero-section-content w-1/2 max-md:w-full h-full flex flex-col justify-between max-md:gap-4">
+        <div className="hero-section-content w-1/2 max-md:w-full h-full flex flex-col justify-between max-xl:gap-4">
           <div className="text-2xl font-bold  max-lg:text-lg">
             <p>About Our Company</p>
           </div>
-          <div className="text-6xl font-bold max-lg:text-4xl max-md:text-3xl">
+          <div className="text-6xl font-bold max-xl:text-4xl max-lg:text-3xl max-md:text-2xl">
             <h1>Delivering a premium construction experience</h1>
           </div>
           <div className="text-text max-lg:text-sm">
@@ -38,7 +38,7 @@ function HeroSection() {
           <img
             src="https://assets.manutd.com/AssetPicker/images/0/0/10/126/687707/Legends-Profile_Cristiano-Ronaldo1523460877263.jpg"
             alt=""
-            className="w-11/12 aspect-square"
+            className="w-11/12 max-xl:w-full aspect-square"
           />
         </div>
       </div>

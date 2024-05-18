@@ -20,17 +20,34 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
+
+@media only screen and (max-width: 720px) {
+  .about-work-benifits,
+  .services,
+  .what-we-do-cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
 @media only screen and (max-width: 758px) {
-  .hero-section,
-  .navigation-bar,
-  .overlay,
-  .work-section {
-    height: 150vh !important;
+  .about-work-benifits,
+  .services,
+  .what-we-do-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .about-our-work {
     height: 100vh !important;
+  }
+  .about-work-benifits,
+  .what-we-do-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section,
+  .projects {
+    height: fit-content !important;
+    padding: 16px 0;
   }
 }

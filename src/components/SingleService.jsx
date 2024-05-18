@@ -1,6 +1,6 @@
 import React from "react";
 
-function SingleService({ icon, title, text }) {
+function SingleService({ icon, title }) {
   return (
     <>
       <div className="service bg-gray h-64 rounded-3xl flex justify-center items-center text-center">
@@ -8,7 +8,7 @@ function SingleService({ icon, title, text }) {
           <div className="w-14 h-14 rounded-full bg-main flex justify-center items-center text-white text-3xl">
             <span>{icon}</span>
           </div>
-          <div className="font-bold text-2xl text-center">
+          <div className="font-bold text-2xl max-lg:text-lg text-center">
             <p> {title} </p>
           </div>
           <div className="text-text">
